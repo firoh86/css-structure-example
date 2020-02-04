@@ -1,0 +1,16 @@
+// mixins
+@import "mixins/breakpoints";
+
+//Estilos base
+@import "./config/config.scss";
+@import "./base/base.scss";
+@import "./config/config.scss";
+
+//Bloques
+@import "./bloques/navbar.scss";
+@import "./bloques/container.scss";
+@import "./bloques/buttons.scss";
+
+//Pages
+@import "./base/App.scss";
+@import "./base/ilustration.scss";

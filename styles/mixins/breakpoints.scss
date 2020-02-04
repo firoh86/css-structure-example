@@ -1,0 +1,32 @@
+@mixin mobile {
+  @media screen and (max-width: 37.5em) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin phablet {
+  @media screen and(min-width: 37.5em) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and(min-width: 50em) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin laptop {
+  @media screen and(min-width: 57em) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin desktop {
+  @media screen and(min-width: 70em) {
+    @content;
+  }
+}

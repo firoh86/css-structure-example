@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  &__link {
+    line-height: 20px;
+    height: 20px;
+    width: 100%;
+    padding: 0.4rem;
+    text-decoration: none;
+    color: #c3cfcf;
+    text-align: center;
+    border-right: 1px solid #e1f4f3;
+    background-color: #706c61;
+    &:hover {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  }
+
+  @include mobile {
+    display: none;
+  }
+}
